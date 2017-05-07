@@ -10,7 +10,7 @@
 [![license](https://img.shields.io/npm/l/express.svg)](https://github.com/LinePY/Scan-ports/blob/master/LICENSE)
 
 ## REQUIREMENTS
-#### python-2.6 or the latest --> http://www.python.org/download/
+#### python-2.7.x --> http://www.python.org/download/
 ##### Not working on python 3 (you want change some codes to working on python 3)
 
 #### Note: Not Working on Linux
