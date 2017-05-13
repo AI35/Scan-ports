@@ -2,7 +2,7 @@
 ###### This program is programmed to check ports for any host you want.
 
 [![Scan ports](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
-[![version](https://img.shields.io/badge/version-1.0.0-green.svg)]()
+[![version](https://img.shields.io/badge/version-1.0.1-green.svg)]()
 [![status](https://img.shields.io/pypi/status/Django.svg)]()
 [![python](https://img.shields.io/badge/python-2.7-blue.svg)](http://www.python.org/download/)
 [![windows](https://img.shields.io/badge/windows-tested-brightgreen.svg)]()
@@ -11,9 +11,10 @@
 
 ## REQUIREMENTS
 #### python-2.7.x --> http://www.python.org/download/
-##### Not working on python 3 (you want change some codes to working on python 3)
 
-#### Note: Not Working on Linux
+## Notes
+#### 1) Not Working on Linux
+#### 2) Not working on python 3 (you want change some codes to working on python 3)
 
 ## HOW TO RUN 
 
