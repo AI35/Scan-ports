@@ -1,9 +1,9 @@
 # SCAN PORTS
 # DEV BY : ALI .B .OTH
-# My ORG : LinePY ©
+# My ORG : LinePY Â©
 # Github account : https://github.com/alosh55
 # My ORG on Github : https://github.com/orgs/LinePY
-# version : 1.0.0
+# version : 1.0.1
 
 import socket
 import sys,os,platform
@@ -21,7 +21,7 @@ def compinfo():
     print 'version  :', platform.version()
     print 'machine  :', platform.machine()
     print 'processor:', platform.processor()
-    print'\nDEV BY : ALI .B .OTH - ORG : LinePY ©'
+    print'\nDEV BY : ALI .B .OTH - ORG : LinePY Â©'
     for i in range(1, 6) :
         sleep(0.5)
         print '.',    
@@ -48,9 +48,16 @@ if __name__ == "__main__":
         else:        
             max_port=5000
             min_port=1
-            host=raw_input("\nEnter Host : ")
-            host_ip=socket.gethostbyname(host)
-            
+            check = True
+            while check:    
+                host=raw_input("\nEnter Host : ")
+            try:
+                host_ip=socket.gethostbyname(host)
+            except:
+                print "Invaild Host , Please Enter vaild Host..."
+            else:
+                check = False
+        
             starting()
         
             print "-" * 65
@@ -82,5 +89,5 @@ if __name__ == "__main__":
                 
             
             print "[*] Finish.. "
-            print'\nDEV BY : ALI .B .OTH - ORG : LinePY ©\nGithub account : https://github.com/alosh55\nMy ORG on Github : https://github.com/orgs/LinePY'
+            print'\nDEV BY : ALI .B .OTH - ORG : LinePY Â©\nGithub account : https://github.com/alosh55\nMy ORG on Github : https://github.com/orgs/LinePY'
             pass
