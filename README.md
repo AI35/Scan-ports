@@ -15,10 +15,16 @@
 ## Notes
 #### 1) Not Working on Linux
 #### 2) Not working on python 3 (you want change some codes to working on python 3)
+#### 3) You can scan your computer by Enter host (127.0.0.1)
 
 ## HOW TO RUN 
 
 ##### Just Open Scan_ports.py
+
+## WannaCry Ransomware
+### You can scan the host if it is at risk from the WannaCry Ransomware virus :
+#### set min_port=444(Line 50) and max_port=446(Line 49) 
+#### if port 445 is open This means that the host is at risk from the WannaCry Ransomware virus
 
 ## LICENSE
 
