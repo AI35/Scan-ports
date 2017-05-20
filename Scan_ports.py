@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # SCAN PORTS
 # DEV BY : ALI .B .OTH
 # My ORG : LinePY ©
@@ -11,6 +12,7 @@ from time import sleep
 from multiprocessing import cpu_count
 
 def compinfo():
+    print '\nScan Ports v1.0.1'
     np = cpu_count()
     print '\nYou have {0:0} CPUs'.format(np)
 
@@ -51,12 +53,12 @@ if __name__ == "__main__":
             check = True
             while check:    
                 host=raw_input("\nEnter Host : ")
-            try:
-                host_ip=socket.gethostbyname(host)
-            except:
-                print "Invaild Host , Please Enter vaild Host..."
-            else:
-                check = False
+                try:
+                    host_ip=socket.gethostbyname(host)
+                except:
+                    print "Invaild Host , Please Enter vaild Host..."
+                else:
+                    check = False
         
             starting()
         
@@ -91,3 +93,4 @@ if __name__ == "__main__":
             print "[*] Finish.. "
             print'\nDEV BY : ALI .B .OTH - ORG : LinePY ©\nGithub account : https://github.com/alosh55\nMy ORG on Github : https://github.com/orgs/LinePY'
             pass
+
