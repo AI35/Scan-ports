@@ -4,7 +4,7 @@
 # My ORG : LinePY ©
 # Github account : https://github.com/alosh55
 # My ORG on Github : https://github.com/orgs/LinePY
-# version : 1.0.1
+# version : 1.0.5
 
 import socket
 import sys,os,platform
@@ -12,7 +12,7 @@ from time import sleep
 from multiprocessing import cpu_count
 
 def compinfo():
-    print '\nScan Ports v1.0.1'
+    print '\nScan Ports v1.0.5'
     np = cpu_count()
     print '\nYou have {0:0} CPUs'.format(np)
 
@@ -48,18 +48,36 @@ if __name__ == "__main__":
                 sleep(1)
                 print '.',
         else:        
-            max_port=5000
-            min_port=1
             check = True
             while check:    
-                host=raw_input("\nEnter Host : ")
+                host=raw_input("\n\nEnter Host : ")
                 try:
                     host_ip=socket.gethostbyname(host)
                 except:
                     print "Invaild Host , Please Enter vaild Host..."
                 else:
                     check = False
-        
+            Q1=True        
+            while Q1:        
+                Eport = raw_input("\n-Do you want enter min and max port ? (Y for yes , N for no)\n-if you choose no => (min port=1 , max port = 5000)\n-")
+                if Eport == "Y" or Eport == "y" or Eport == "N" or Eport == "n":
+                    Q1=False
+                else:
+                    print "\nWrong choice..Try again.."
+            if Eport == "Y" or Eport == "y":
+                cp=True
+                while cp:        
+                    try:        
+                        min_port = int(raw_input("\nEnter min port: "))
+                        max_port = int(raw_input("\nEnter max port: "))
+                    except:
+                        print "error..!! Please Try again.."
+                    else:
+                        cp=False
+            else:
+                cp=False
+                min_port=1
+                max_port=5000
             starting()
         
             print "-" * 65
@@ -93,4 +111,3 @@ if __name__ == "__main__":
             print "[*] Finish.. "
             print'\nDEV BY : ALI .B .OTH - ORG : LinePY ©\nGithub account : https://github.com/alosh55\nMy ORG on Github : https://github.com/orgs/LinePY'
             pass
-
