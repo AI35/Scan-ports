@@ -108,6 +108,8 @@ if __name__ == "__main__":
                 sys.exit()
                 
             
-            print "[*] Finish.. "
+            print "\n[*] Finish.. "
             print'\nDEV BY : ALI .B .OTH - ORG : LinePY ©\nGithub account : https://github.com/alosh55\nMy ORG on Github : https://github.com/orgs/LinePY'
-            pass
+            while True:
+                pass
+
