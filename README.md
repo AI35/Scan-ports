@@ -4,7 +4,7 @@
 [![Scan ports](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
 [![version](https://img.shields.io/badge/version-1.1.5-green.svg)]()
 [![status](https://img.shields.io/badge/status-stable-brightgreen.svg)]()
-[![python](https://img.shields.io/badge/python-2.7.x , 3.6.x-blue.svg)](http://www.python.org/download/)
+[![python](https://img.shields.io/badge/python-2.7.x%20,%203.6.x-blue.svg)](http://www.python.org/download/)
 [![windows](https://img.shields.io/badge/windows-tested-brightgreen.svg)]()
 [![linux](https://img.shields.io/badge/linux-Not%20woking-lightgrey.svg)]()
 [![license](https://img.shields.io/npm/l/express.svg)](https://github.com/LinePY/Scan-ports/blob/master/LICENSE)
@@ -31,7 +31,7 @@
 #### 4) If port 445 is open This means that the host is at risk from the WannaCry Ransomware virus.
 
 ## LICENSE
-'''
+```
 Copyright 2017 LinePY, Inc.
 
 Scan Ports
@@ -41,5 +41,5 @@ Scan Ports
    You may obtain a copy of the License at :
 
    https://github.com/LinePY/Scan-ports/blob/master/LICENSE
-'''
+```
 ###### ALI .B .OTH - ORG : LinePY �
