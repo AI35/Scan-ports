@@ -41,7 +41,7 @@ def starting():
 
 if __name__ == "__main__":
     compinfo()
-    if platform.system() != 'Windows' or platform.system() != 'Linux' :
+    if platform.system() != 'Windows' and platform.system() != 'Linux' :
         print('\nNot Working on : ', platform.system())
     else:
         if platform.python_version() < '3.6':
