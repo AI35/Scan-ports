@@ -1,10 +1,11 @@
+#! /usr/bin/env python
 # -*- coding: utf-8 -*-
 # SCAN PORTS
 # DEV BY : ALI .B .OTH
 # My ORG : LinePY ©
 # Github account : https://github.com/alosh55
 # My ORG on Github : https://github.com/orgs/LinePY
-# version : 1.1.5
+# version : 1.1.8 , py 3.6.x
 
 import socket
 import sys, platform
@@ -40,7 +41,7 @@ def starting():
 
 if __name__ == "__main__":
     compinfo()
-    if platform.system() != 'Windows':
+    if platform.system() != 'Windows' or platform.system() != 'Linux' :
         print('\nNot Working on : ', platform.system())
     else:
         if platform.python_version() < '3.6':

@@ -2,18 +2,18 @@
 ###### This program is programmed to check ports for any host you want.
 
 [![Scan ports](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
-[![version](https://img.shields.io/badge/version-1.1.5-green.svg)]()
+[![version](https://img.shields.io/badge/version-1.1.8-green.svg)]()
 [![status](https://img.shields.io/badge/status-stable-brightgreen.svg)]()
 [![python](https://img.shields.io/badge/python-2.7.x%20,%203.6.x-blue.svg)](http://www.python.org/download/)
 [![windows](https://img.shields.io/badge/windows-tested-brightgreen.svg)]()
-[![linux](https://img.shields.io/badge/linux-Not%20woking-lightgrey.svg)]()
+[![linux](https://img.shields.io/badge/linux-tested-brightgreen.svg)]()
 [![license](https://img.shields.io/npm/l/express.svg)](https://github.com/LinePY/Scan-ports/blob/master/LICENSE)
 
 ## REQUIREMENTS
 #### Only Python-3.6.x or 2.7.x --> http://www.python.org/download/
 
 ## Notes
-#### 1) Not Working on Linux.
+#### 1) Now Working on Linux and Windows.
 #### 2) Scan_Ports py2.7.x(for python 2.7) , Scan_Ports py3.6.x(for python 3.6)
 #### 3) You can scan your computer by Enter host : 127.0.0.1 (or) localhost .
 
