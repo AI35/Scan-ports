@@ -3,7 +3,7 @@
 # SCAN PORTS
 # DEV BY : ALI .B .OTH
 # My ORG : LinePY ©
-# Github account : https://github.com/alosh55
+# Github account : https://github.com/AI35
 # My ORG on Github : https://github.com/orgs/LinePY
 # version : 1.1.8 , py 3.5.x or later
 
@@ -113,6 +113,6 @@ if __name__ == "__main__":
                 sys.exit()
 
             print("\n[*] Finish.. ")
-            print('\nDEV BY : ALI .B .OTH - ORG : LinePY ©\nGithub account : https://github.com/alosh55\nMy ORG on Github : https://github.com/orgs/LinePY')
+            print('\nDEV BY : ALI .B .OTH - ORG : LinePY ©\nGithub account : https://github.com/AI35\nMy ORG on Github : https://github.com/orgs/LinePY')
             while True:
                 pass
